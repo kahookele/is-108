@@ -51,6 +51,20 @@ body {
       display: inline-block;
       width: auto;
   }
-
-  
 }
+
+@media (max-width: 900px) {
+  .container .row
+  .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .personal-text {
+    text-align: center;
+  }
+}
+

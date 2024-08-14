@@ -72,3 +72,9 @@ body {
       width: auto;
   }
 }
+
+@media (max-width: 500px) {
+  .personal-text {
+    text-align: center;
+  }
+}
