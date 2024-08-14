@@ -60,3 +60,15 @@ body {
 .nav-link:hover {
   transform: scale(1.2);
 }
+
+@media (max-width: 768px) {
+  .navbar-nav {
+      text-align: center;
+      width: 100%;
+      padding: 0;
+  }
+  .navbar-nav .nav-item {
+      display: inline-block;
+      width: auto;
+  }
+}
